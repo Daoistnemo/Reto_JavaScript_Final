@@ -183,3 +183,6 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCartProducts(cartProducts);  // Renderizar los productos del carrito
   renderFavorites();  // Mostrar productos favoritos al cargar la página
 });
+
+
+//localStorage.removeItem('favorites');
