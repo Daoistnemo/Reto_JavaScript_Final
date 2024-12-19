@@ -15,6 +15,7 @@ function createCard(product) {
                   Incluye impuesto País y percepción AFIP
               </div>
           </div>
+            
       </a>
   `;
 }

@@ -133,3 +133,73 @@ button {
 button:hover {
   background: #ff5151;
 }
+
+.product-card, .favorite-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remove-btn, .favorite-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 4.5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.favorite-btn {
+  background-color: #ff9900;
+}
+
+.remove-btn:hover, .favorite-btn:hover {
+  background-color: #0056b3;
+}
+
+#favoritesSection {
+  margin-top: 40px;
+}
+
+.favorites-container {
+  margin: 25px;
+}
+
+.favorite-card {
+  width: 200px;
+  margin: 10px;
+}
+/* Estilo para las imágenes dentro de las tarjetas de favoritos */
+.favorite-image {
+  width: 80px;        /* Cambia el tamaño de la imagen (ajusta el valor como necesites) */
+  height: auto;       /* Mantener la relación de aspecto */
+  object-fit: cover;  /* Opcional: ajusta la imagen para que se recorte si es necesario */
+  margin-right: 10px; /* Espacio a la derecha de la imagen */
+}
+
+.favorite-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.favorite-card img {
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.favorite-card h3 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.favorite-card p {
+  font-size: 14px;
+  color: #666;
+}
